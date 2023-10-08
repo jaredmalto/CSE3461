@@ -1,0 +1,40 @@
+INFO:root:hello
+INFO:root:[osu]
+INFO:root:university= The Ohio State University
+INFO:root:college= College of Engineering
+INFO:root:department= Department of Computer Science and Engineering
+INFO:root:class= CSE3461
+INFO:root:[server]
+INFO:root:serverhost= 10.134.215.76
+INFO:root:serverport= 5782
+INFO:root:[db]
+INFO:root:dbhost= 10.129.2.170
+INFO:root:dbport= 3232
+INFO:root:commitinterval= 60
+INFO:root:[logger]
+INFO:root:loghost= 10.1.154.241
+INFO:root:loglevel= info
+INFO:root:[topsecret.server.com]
+INFO:root:port= 50022
+INFO:root:forwardx11= no
+INFO:root:You entered: the quick brown fox
+
+INFO:root:Processed string: THE quick brown fox
+
+INFO:root:You entered: count to 5 ... 12345
+
+INFO:root:Processed string: COUNT to 5 ... 12345
+
+INFO:root:You entered: 3461 is Networking Fundamentals
+
+INFO:root:Processed string: 3461 is Networking Fundamentals
+
+INFO:root:You entered: Go Bucks!
+
+INFO:root:Processed string: GO Bucks!
+
+INFO:root:You entered: The next string will be a quit
+
+INFO:root:Processed string: THE next string will be a quit
+
+INFO:root:Shutting down ...
