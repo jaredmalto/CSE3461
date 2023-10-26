@@ -1,0 +1,49 @@
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+ERROR:root:String is empty.
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Response: {"response": "JUMPED", "parameter": "over the lazy dog"}
+ERROR:root:Error connecting to server: [Errno 61] Connection refused
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Response: {"response": "HELLO", "parameter": ""}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Response: {"response": "HELLO", "parameter": "world"}
+INFO:root:Response: {"response": "JUMPED", "parameter": "over the lazy dog"}
+INFO:root:Response: {"response": "CALL", "parameter": "Call me Ishmael"}
+INFO:root:Response: {"response": "IN", "parameter": "a hole in the ground there lived a hobbit"}
+INFO:root:Response: {"response": "HOUSTON,", "parameter": "we have a problem"}
+INFO:root:Response: {"response": "IT", "parameter": "was a dark and stormy night"}
+INFO:root:Response: {"response": "I", "parameter": "want to quit"}
+INFO:root:Response: {"response": "QUITTING", "parameter": ""}
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: good morning
+INFO:root:Response: {"response": "GOOD", "parameter": "morning"}
+INFO:root:Original String: this is a string
+INFO:root:Response: {"response": "THIS", "parameter": "is a string"}
+INFO:root:Original String: quitting
+INFO:root:Response: {"response": "QUITTING", "parameter": ""}
+INFO:root:Original String: quitting now
+INFO:root:Response: {"response": "QUITTING", "parameter": "now"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: hello world
+INFO:root:Response: {"response": "HELLO", "parameter": "world"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: hello there
+INFO:root:Response: {"response": "HELLO", "parameter": "there"}
+INFO:root:Original String: quitting
+INFO:root:Response: {"response": "QUITTING", "parameter": ""}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: where are you right now
+INFO:root:Response: {"response": "WHERE", "parameter": "are you right now"}
+INFO:root:Original String: im at home
+INFO:root:Response: {"response": "IM", "parameter": "at home"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
