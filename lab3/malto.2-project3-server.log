@@ -1,0 +1,69 @@
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from {address} has been established
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from {address} has been established
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from {address} has been established
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from {address} has been established
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from ('127.0.0.1', 54696) has been established
+INFO:root:Received: {"command": "HELLO", "parameter": "world"}
+INFO:root:Received: {"command": "QUIT", "parameter": ""}
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from ('127.0.0.1', 54700) has been established
+INFO:root:Received: {"command": "HELLO", "parameter": "there"}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "HELLO", "parameter": "there"}
+INFO:root:Received: {"command": "QUITTING", "parameter": ""}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "QUITTING", "parameter": ""}
+INFO:root:Received: {"command": "QUIT", "parameter": ""}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "QUITTING", "parameter": null}
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from ('127.0.0.1', 54704) has been established
+INFO:root:Received: {"command": "WHERE", "parameter": "are you right now"}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "WHERE", "parameter": "are you right now"}
+INFO:root:Received: {"command": "IM", "parameter": "at home"}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "IM", "parameter": "at home"}
+INFO:root:Received: {"command": "QUIT", "parameter": ""}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "QUITTING", "parameter": null}
+INFO:root:Shutting down...
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from ('127.0.0.1', 63293) has been established
+INFO:root:Received: {"command": "GOOD", "parameter": "morning"}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "GOOD", "parameter": "morning"}
+INFO:root:Received: {"command": "EXIT", "parameter": ""}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "EXIT", "parameter": ""}
+INFO:root:Received: {"command": "QUIT", "parameter": ""}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "QUITTING", "parameter": null}
+INFO:root:Shutting down...
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from ('127.0.0.1', 63437) has been established
+INFO:root:Received: 
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from ('127.0.0.1', 63444) has been established
+INFO:root:Received: {"command": "ADD", "parameter": ""}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "ADD", "parameter": ""}
+INFO:root:Received: {"command": "CREATE", "parameter": "do homework"}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "CREATE", "parameter": "do homework"}
+INFO:root:Received: {"command": "QUIT", "parameter": "this"}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "QUITTING", "parameter": null}
+INFO:root:Shutting down...
+INFO:root:Listening on 127.0.0.1:7721
+INFO:root:Connection from ('127.0.0.1', 63450) has been established
+INFO:root:Received: {"command": "QUIT", "parameter": ""}
+INFO:root:Building response...
+INFO:root:Response sent: {"response": "QUITTING", "parameter": null}
+INFO:root:Shutting down...

@@ -1,0 +1,669 @@
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create this
+INFO:root:Response: {"response": "CREATE", "parameter": "this"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create list
+INFO:root:Response: {"response": "CREATE", "parameter": "list"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: quit
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: hello
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: quit
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "List created with name ", "parameter": ""}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "List created with name todo", "parameter": "todo"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "List created with name todo", "parameter": "todo"}
+INFO:root:Original String: add
+INFO:root:Response: {"response": "ADD", "parameter": ""}
+INFO:root:Original String: clear
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "List created with name todo", "parameter": "todo"}
+INFO:root:Original String: add wake up
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "List created with name todo", "parameter": "todo"}
+INFO:root:Original String: add eat
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "List created with name todo", "parameter": "todo"}
+INFO:root:Original String: add eat
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "Created list todo"}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "Created list todo"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: quit
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "Created list todo"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "Created list todo"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "Created list todo"}
+INFO:root:Original String: add eat
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "Created list todo"}
+INFO:root:Original String: add eat
+INFO:root:Response: {"response": "Added eat to list"}
+INFO:root:Original String: add drink
+INFO:root:Response: {"response": "Added drink to list"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "Created list todo"}
+INFO:root:Original String: add eat
+INFO:root:Response: {"response": "Added eat to list"}
+INFO:root:Original String: add drink
+INFO:root:Response: {"response": "Added drink to list"}
+INFO:root:Original String: add sleep
+INFO:root:Response: {"response": "Added sleep to list"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: add eat
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added eat to list"}
+INFO:root:Original String: add drink
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added drink to list"}
+INFO:root:Original String: add sleep
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added sleep to list"}
+INFO:root:Original String: remove eat
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Removed eat from list"}
+INFO:root:Original String: remove drin
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: add eat
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added eat to list"}
+INFO:root:Original String: add wake up
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added wake up to list"}
+INFO:root:Original String: add drink
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added drink to list"}
+INFO:root:Original String: add drink
+INFO:root:Response: {"response": "ADD unsuccessful", "parameter": "Item drink is in list or list does not yet exist"}
+INFO:root:Original String: add cook
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added cook to list"}
+INFO:root:Original String: remove cook
+INFO:root:Response: {"response": null, "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: add hello
+INFO:root:Response: {"response": "ADD unsuccessful", "parameter": "Item hello is in list or list does not yet exist"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: add wake up
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added wake up to list"}
+INFO:root:Original String: add get dressed
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added get dressed to list"}
+INFO:root:Original String: add brush teeth
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added brush teeth to list"}
+INFO:root:Original String: remove brush teeth
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Item brush teeth removed"}
+INFO:root:Original String: delete wake up
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List wake up does not exist"}
+INFO:root:Original String: delete todo
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List todo deleted"}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create 
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: remove item
+INFO:root:Response: {"response": "REMOVE unsuccessful", "parameter": "Item not in list or no list exists"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: add
+INFO:root:Response: {"response": "ADD unsuccessful", "parameter": "Item  is in list or list does not yet exist"}
+INFO:root:Original String: add study for final
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added study for final to list"}
+INFO:root:Original String: add take final
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added take final to list"}
+INFO:root:Original String: add party
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added party to list"}
+INFO:root:Original String: add get grades
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added get grades to list"}
+INFO:root:Original String: remove party
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Item party removed"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: add go to sleep
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added go to sleep to list"}
+INFO:root:Original String: add wakeup
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added wakeup to list"}
+INFO:root:Original String: show
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: add sleep
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added sleep to list"}
+INFO:root:Original String: add eat
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added eat to list"}
+INFO:root:Original String: add study
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added study to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,sleep,eat,study"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: add sleep
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added sleep to list"}
+INFO:root:Original String: add wakeup
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added wakeup to list"}
+INFO:root:Original String: add hw
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added hw to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,sleep,wakeup,hw"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW unsuccessful", "parameter": "No active list"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ""}
+INFO:root:Original String: add hello
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added hello to list"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",hello"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: remove todo
+INFO:root:Response: {"response": "REMOVE unsuccessful", "parameter": "Item not in list or no list exists"}
+INFO:root:Original String: create mylist
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo"}
+INFO:root:Original String: add eat
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added eat to list"}
+INFO:root:Original String: add school
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added school to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,eat,school"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+ERROR:root:Error connecting to server: [Errno 61] Connection refused
+INFO:root:Original String: help
+INFO:root:Original String: quit
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create new list
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists or empty name"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List  does not exist"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List  does not exist"}
+INFO:root:Original String: create new list
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists or empty name"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List  does not exist"}
+INFO:root:Original String: remove
+INFO:root:Response: {"response": "REMOVE unsuccessful", "parameter": "Item not in list or no list exists"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List  does not exist"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List  does not exist"}
+INFO:root:Original String: delete todo
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List todo deleted"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo"}
+INFO:root:Original String: add sleep
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added sleep to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,sleep"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,sleep"}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,sleep"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,sleep"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,sleep"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List  does not exist"}
+INFO:root:Original String: delete todo
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List todo deleted"}
+INFO:root:Original String: add hello
+INFO:root:Response: {"response": "ADD unsuccessful", "parameter": "Item hello is in list or list does not yet exist"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: crate
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists or empty name"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: crate
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists or empty name"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: crate
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists or empty name"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: remove item
+INFO:root:Response: {"response": "REMOVE unsuccessful", "parameter": "Item not in list or no list exists"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: create another
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ""}
+INFO:root:Original String: add
+INFO:root:Response: {"response": "ADD unsuccessful", "parameter": "Item  is in list or list does not yet exist"}
+INFO:root:Original String: add study for final
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added study for final to list"}
+INFO:root:Original String: add take final
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added take final to list"}
+INFO:root:Original String: add party
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added party to list"}
+INFO:root:Original String: add grades
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added grades to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",study for final,take final,party,grades"}
+INFO:root:Original String: remove party
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Item party removed"}
+INFO:root:Original String: remove show
+INFO:root:Response: {"response": "REMOVE unsuccessful", "parameter": "Item not in list or no list exists"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",study for final,take final,grades"}
+INFO:root:Original String: add resolve to study harder
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added resolve to study harder to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",study for final,take final,grades,resolve to study harder"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create mylist
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",study for final,take final,grades,resolve to study harder"}
+INFO:root:Original String: remove take final
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Item take final removed"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",study for final,grades,resolve to study harder"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: delete mylist
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: delete todo
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List todo does not exist"}
+INFO:root:Original String: delete mylist
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List mylist does not exist"}
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: delete mylist
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: delete mylist
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List mylist does not exist"}
+INFO:root:Original String: delete todo
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List todo does not exist"}
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: delete
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List  deleted"}
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: add item
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added item to list"}
+INFO:root:Original String: create StoryOutline
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: add Boy meets girl
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added Boy meets girl to list"}
+INFO:root:Original String: add Boy and girl fall in love
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added Boy and girl fall in love to list"}
+INFO:root:Original String: add earth explodes
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added earth explodes to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",item,Boy meets girl,Boy and girl fall in love,earth explodes"}
+INFO:root:Original String: add the end
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added the end to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",item,Boy meets girl,Boy and girl fall in love,earth explodes,the end"}
+INFO:root:Original String: delete storyoutline
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List storyoutline does not exist"}
+INFO:root:Original String: delete StoryOutline
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List StoryOutline does not exist"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+ERROR:root:Error connecting to server: [Errno 61] Connection refused
+INFO:root:Original String: clear
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: quit
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Original String: create todo
+INFO:root:Original String: quit]
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: crate
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: create
+INFO:root:Original String: remove item
+INFO:root:Original String: create todo
+INFO:root:Original String: create todo
+ERROR:root:String is empty.
+INFO:root:Original String: create todo
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Original String: clear
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Original String: create todo
+INFO:root:Original String: create
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Original String: add
+INFO:root:Original String: add todo
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list "}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: clear
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: crate
+ERROR:root:Invalid command. Type 'help' for a list of valid commands.
+INFO:root:Original String: create
+INFO:root:Original String: remove item
+INFO:root:Response: {"response": "REMOVE unsuccessful", "parameter": "Item not in list or no list exists"}
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: create another
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list another"}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: create another
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list another"}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create todo
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list todo"}
+INFO:root:Original String: create another
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo"}
+INFO:root:Original String: add
+INFO:root:Original String: add study for final
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added study for final to list"}
+INFO:root:Original String: add take final
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added take final to list"}
+INFO:root:Original String: add party
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added party to list"}
+INFO:root:Original String: add get grades
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added get grades to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,study for final,take final,party,get grades"}
+INFO:root:Original String: remove party
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Item party removed"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,study for final,take final,get grades"}
+INFO:root:Original String: add resolve to study harder
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added resolve to study harder to list"}
+INFO:root:Original String: remove study for final
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Item study for final removed"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,take final,get grades,resolve to study harder"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: create mylist
+INFO:root:Response: {"response": "CREATE Unsuccessful", "parameter": "Active list exists"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,take final,get grades,resolve to study harder"}
+INFO:root:Original String: remove take final
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Item take final removed"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "todo,get grades,resolve to study harder"}
+INFO:root:Original String: delete
+INFO:root:Original String: delete mylist
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List mylist does not exist"}
+INFO:root:Original String: delete todo
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List todo deleted"}
+INFO:root:Original String: create
+INFO:root:Original String: add item
+INFO:root:Response: {"response": "ADD unsuccessful", "parameter": "Item item is in list or list does not yet exist"}
+INFO:root:Original String: create StoryOutline
+INFO:root:Response: {"response": "CREATE successful", "parameter": "Created list StoryOutline"}
+INFO:root:Original String: add Boy meets girl
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added Boy meets girl to list"}
+INFO:root:Original String: add Boy and girl fall in love
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added Boy and girl fall in love to list"}
+INFO:root:Original String: add earth explodes
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added earth explodes to list"}
+INFO:root:Original String: Show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "StoryOutline,Boy meets girl,Boy and girl fall in love,earth explodes"}
+INFO:root:Original String: add the end
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added the end to list"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "StoryOutline,Boy meets girl,Boy and girl fall in love,earth explodes,the end"}
+INFO:root:Original String: remove earth explodes
+INFO:root:Response: {"response": "REMOVE successful", "parameter": "Item earth explodes removed"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "StoryOutline,Boy meets girl,Boy and girl fall in love,the end"}
+INFO:root:Original String: remove earth explodes
+INFO:root:Response: {"response": "REMOVE unsuccessful", "parameter": "Item not in list or no list exists"}
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": "StoryOutline,Boy meets girl,Boy and girl fall in love,the end"}
+INFO:root:Original String: delete storyoutline
+INFO:root:Response: {"response": "DELETE unsuccessful", "parameter": "List storyoutline does not exist"}
+INFO:root:Original String: delete StoryOutline
+INFO:root:Response: {"response": "DELETE successful", "parameter": "List StoryOutline deleted"}
+INFO:root:Original String: quit
+INFO:root:Response: {"response": "QUITTING", "parameter": null}
+INFO:root:Connected to address 127.0.0.1:7721
+INFO:root:Original String: help
+INFO:root:Original String: add
+INFO:root:Original String: add hello
+INFO:root:Response: {"response": "ADD successful", "parameter": "Added hello to list"}
+INFO:root:Original String: delete
+INFO:root:Original String: show
+INFO:root:Response: {"response": "SHOW successful", "parameter": ",hello"}
+INFO:root:Original String: delete 
